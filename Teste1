@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natureza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<h1> O seu site sobre Natureza </h1>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <section class="image-container">
+        <img src="floresta.jpg" alt="Imagem de Floresta">
+    </section>
+    <ol>
+        <li> Floresta amazonica; </li>
+        <li> Montanha do norte; </li>
+        <li> Rio de janeiro; </li>
+        <li> Mar de Itapuama. </li>
+    </ol>
+    <table>
+        <tr>
+            <th> Nome: </th>
+            <th> Tipo: </th>
+            <th> Localização: </th>
+            <th> Importância: </th>
+        </tr>
+        <tr>
+            <td> Amazonas </td>
+            <td> Floresta </td>
+            <td> América do Sul </td>
+            <td> Alta </td>
+        </tr>
+        <tr>
+            <td> Everest </td>
+            <td> Montanha </td>
+            <td> Ásia </td>
+            <td> Alta </td>
+        </tr>
+        <tr>
+            <td> Nilo </td>
+            <td> Rio </td>
+            <td> África </td>
+            <td> Alta </td>
+        </tr>
+        <tr>
+            <td> Atlântico </td>
+            <td> Mar </td>
+            <td> Mundo </td>
+            <td> Alta </td>
+        </tr>
+    </table>
+    <form action="/submit" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>
+        <p>SESI Ibura - Unidade Roberto Egydio de Azevedo, Avenida Ministro Oliveira Salazar, n.º 228 - Ibura, Recife - PE, 51220-040, Brasil</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=SESI+Ibura+-+Unidade+Roberto+Egydio+de+Azevedo%2C+Avenida+Ministro+Oliveira+Salazar%2C+n.%C2%BA+228+-+Ibura%2C+Recife+-+PE%2C+51220-040%2C+Brasil" target="_blank">
+            <button>Ir</button>
+        </a>
+    </footer>
+</body>
+</html>
